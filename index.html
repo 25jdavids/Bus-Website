@@ -16,7 +16,7 @@
              font-family: Arial, sans-serif;">
 
   <header>
-    <h1>The Best Bus Management System</h1>
+    <h1>The Best Bus Management System</header>h1>
     <h2>Orbus Queenstown</h2>
     <p>Your fast, friendly, and affordable ride around Queenstown.</p>
   </header>
@@ -48,8 +48,19 @@
     </section>
   </main>
 
-  <footer>
+<button onclick="closesite()">Close Site</button>
+
+<script>
+  function closesite() {
+    document.body.innerHTML = "<h6>GOODBYE!</h6><p>YOU CAN NOW CLOSE THIS TAB.</p>";
+  }
+</script>
+
+<button onclick="begin()">Next Page</button>
+  
+<footer>
     <p>&copy; 2025 The Best Bus Management System. All rights reserved.</p>
+    <p>To get into human contact dial:+64 204 573 633</p>
   </footer>
 
   <script src="script.js"></script>
