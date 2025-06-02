@@ -1,52 +1,86 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
-    margin-top: 100px;
+  background-image: url('https://img.freepik.com/premium-photo/wireframe-grand-tour-bus-moving-fast-dark-blue-background_207634-5535.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 20px;
+  padding: 40px;
+  color: white;
+  min-height: 100vh;
+  position: relative;
+  text-shadow: 1px 1px 3px black;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 10px 0;
+  text-shadow: 1px 1px 3px black;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: yellow;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: yellow;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 0.9rem;
+  color: white;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
 }
 
-button2 {
-    padding: 10px 20px;
-    font-size:  16px;
-}
-h1{
-    color:yellow;
-    text-align: center;
-    font-size: xx-large;
-}
-
-h2{
-    color:yellow;
-    text-align: center;
-    font-size: xx-large;
+.bus-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-h3{
-    color:yellow;
-    text-align: center;
-    font-size: xx-large;
+.bus-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px gray;
+  width: 220px;
+  text-align: center;
+  color: black;
 }
 
-h4{
-    color:yellow;
-    text-align: center;
-    font-size: xx-large;
-}
-
-h5{
-    color:white;
-    text-align: center;
-    font-size: xx-large;
-}
-
-h6{
-    color:black;
-    text-align: center;
-    font-size: xx-large;
-    font-style: oblique;
+main {
+  max-width: 900px;
+  margin: 0 auto 100px auto;
 }
