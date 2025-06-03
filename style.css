@@ -1,14 +1,19 @@
 body {
-  background-image: url('https://img.freepik.com/premium-photo/wireframe-grand-tour-bus-moving-fast-dark-blue-background_207634-5535.jpg');
+  background-image: url('https://www.newzealandscapes.co.nz/cdn/shop/files/NZ-Landscape-Morning-Light-on-The-Remarkables.jpg?v=1688007615');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin: 20px;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: white;
   min-height: 100vh;
   position: relative;
   text-shadow: 1px 1px 3px black;
+  font-size: large;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -31,22 +36,32 @@ h2 {
 }
 
 header {
+  width: 95%;
+  box-sizing: border-box;
   padding: 20px;
-  text-align: center;
   background-color: yellow;
+  color: black;
+  text-align: center;
   border-radius: 10px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
 }
 
 footer {
-  padding: 10px;
-  text-align: center;
+  width: 95%;
+  box-sizing: border-box;
+  padding: 20px;
   background-color: yellow;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  font-size: 0.9rem;
-  color: white;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 button {
@@ -61,26 +76,27 @@ button {
   transition: background-color 0.3s;
 }
 
-.bus-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.bus-card {
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px gray;
-  width: 220px;
-  text-align: center;
-  color: black;
-}
-
 main {
   max-width: 900px;
   margin: 0 auto 100px auto;
+}
+
+.component-table {
+  width: 90%;
+  height: 80%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.component-table td {
+  padding: 30px;
+  border: 2px solid black;
+  background-color: yellow;
+}
+
+.component-table a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
 }
