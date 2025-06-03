@@ -92,11 +92,11 @@ main {
 .component-table td {
   padding: 30px;
   border: 2px solid black;
-  background-color: yellow;
+  background-color: grey;
 }
 
 .component-table a {
   text-decoration: none;
-  color: blue;
+  color: black;
   font-weight: bold;
 }
